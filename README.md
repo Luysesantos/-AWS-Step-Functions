@@ -1,8 +1,8 @@
-# Fluxo Linear Mínimo com AWS Step Functions
+# Fluxo Linear com AWS Step Functions
 
 ##  Objetivo do Projeto
 
-Este projeto demonstra a **estrutura básica e mínima** de um workflow no AWS Step Functions, focando na **sequência linear** de estados e na **passagem de dados** usando o **Estado `Pass`**. É uma consolidação do uso da sintaxe da **Amazon States Language (ASL)**.
+Este projeto demonstra a **estrutura básica** de um workflow no AWS Step Functions, focando na **sequência linear** de estados e na **passagem de dados** usando o **Estado `Pass`**. É uma consolidação do uso da sintaxe da **Amazon States Language (ASL)**.
 
 ## Tecnologias e Conceitos Aplicados
 
@@ -12,7 +12,7 @@ Este projeto demonstra a **estrutura básica e mínima** de um workflow no AWS S
 | **Estado `Pass`** | Simula processamento e injeta metadados. | Demonstra a manipulação básica de dados em ASL. |
 | **Estado `Succeed`** | Encerra o fluxo com sucesso. | Demonstra a forma padrão de conclusão. |
 
-## 1. Definição da Máquina de Estados (`FluxoMinimo`)
+## 1. Definição da Máquina de Estados 
 
 O fluxo segue uma linha reta: Iniciar -> Processar -> Finalizar.
 
