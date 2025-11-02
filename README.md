@@ -12,7 +12,7 @@ Este projeto demonstra a **estrutura básica e mínima** de um workflow no AWS S
 | **Estado `Pass`** | Simula processamento e injeta metadados. | Demonstra a manipulação básica de dados em ASL. |
 | **Estado `Succeed`** | Encerra o fluxo com sucesso. | Demonstra a forma padrão de conclusão. |
 
-## 1. Definição da Máquina de Estados (`FluxoMinimoDIO`)
+## 1. Definição da Máquina de Estados (`FluxoMinimo`)
 
 O fluxo segue uma linha reta: Iniciar -> Processar -> Finalizar.
 
