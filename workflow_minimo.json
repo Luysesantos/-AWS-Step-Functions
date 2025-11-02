@@ -1,0 +1,24 @@
+{
+  "Comment": "A estrutura: Iniciar, Passar Dados, Finalizar.",
+  "StartAt": "InicializarDados",
+  "States": {
+    "InicializarDados": {
+      "Type": "Pass",
+      "Comment": "Simula o recebimento ou criação de um dado inicial.",
+      "Result": {
+        "status": "Iniciado",
+        "versao": "1.0"
+      },
+      "ResultPath": "$.meta", 
+      "Next": "ProcessarPasso"
+    },
+    "ProcessarPasso": {
+      "Type": "Pass",
+      "Comment": "Simplesmente passa o input adiante, simulando um processamento.",
+      "Next": "FinalizarSucesso"
+    },
+    "FinalizarSucesso": {
+      "Type": "Succeed"
+    }
+  }
+}
