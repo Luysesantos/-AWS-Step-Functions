@@ -19,7 +19,7 @@ O fluxo segue uma linha reta: Iniciar -> Processar -> Finalizar.
 ```json
 
 {
-  "Comment": "A estrutura mais simples: Iniciar, Passar Dados, Finalizar.",
+  "Comment": "A estrutura: Iniciar, Passar Dados, Finalizar.",
   "StartAt": "InicializarDados",
   "States": {
     "InicializarDados": {
